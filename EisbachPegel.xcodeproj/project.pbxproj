@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E59DDC7D29D8958D00DF4EFB /* EisbachPegelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */; };
+		E59DDC7F29D8958D00DF4EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7E29D8958D00DF4EFB /* ContentView.swift */; };
+		E59DDC8129D8958F00DF4EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59DDC8029D8958F00DF4EFB /* Assets.xcassets */; };
+		E59DDC8429D8958F00DF4EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59DDC8329D8958F00DF4EFB /* Preview Assets.xcassets */; };
+		E59DDC8E29D8958F00DF4EFB /* EisbachPegelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */; };
+		E59DDC9829D8958F00DF4EFB /* EisbachPegelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */; };
+		E59DDC9A29D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E59DDC8A29D8958F00DF4EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59DDC7129D8958D00DF4EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59DDC7829D8958D00DF4EFB;
+			remoteInfo = EisbachPegel;
+		};
+		E59DDC9429D8958F00DF4EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E59DDC7129D8958D00DF4EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E59DDC7829D8958D00DF4EFB;
+			remoteInfo = EisbachPegel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisbachPegel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelApp.swift; sourceTree = "<group>"; };
+		E59DDC7E29D8958D00DF4EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E59DDC8029D8958F00DF4EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E59DDC8329D8958F00DF4EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisbachPegelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelTests.swift; sourceTree = "<group>"; };
+		E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisbachPegelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelUITests.swift; sourceTree = "<group>"; };
+		E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E59DDC7629D8958D00DF4EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC8629D8958F00DF4EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC9029D8958F00DF4EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E59DDC7029D8958D00DF4EFB = {
+			isa = PBXGroup;
+			children = (
+				E59DDC7B29D8958D00DF4EFB /* EisbachPegel */,
+				E59DDC8C29D8958F00DF4EFB /* EisbachPegelTests */,
+				E59DDC9629D8958F00DF4EFB /* EisbachPegelUITests */,
+				E59DDC7A29D8958D00DF4EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E59DDC7A29D8958D00DF4EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */,
+				E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */,
+				E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E59DDC7B29D8958D00DF4EFB /* EisbachPegel */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */,
+				E59DDC7E29D8958D00DF4EFB /* ContentView.swift */,
+				E59DDC8029D8958F00DF4EFB /* Assets.xcassets */,
+				E59DDC8229D8958F00DF4EFB /* Preview Content */,
+			);
+			path = EisbachPegel;
+			sourceTree = "<group>";
+		};
+		E59DDC8229D8958F00DF4EFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDC8329D8958F00DF4EFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E59DDC8C29D8958F00DF4EFB /* EisbachPegelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */,
+			);
+			path = EisbachPegelTests;
+			sourceTree = "<group>";
+		};
+		E59DDC9629D8958F00DF4EFB /* EisbachPegelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */,
+				E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */,
+			);
+			path = EisbachPegelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E59DDC7829D8958D00DF4EFB /* EisbachPegel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegel" */;
+			buildPhases = (
+				E59DDC7529D8958D00DF4EFB /* Sources */,
+				E59DDC7629D8958D00DF4EFB /* Frameworks */,
+				E59DDC7729D8958D00DF4EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EisbachPegel;
+			productName = EisbachPegel;
+			productReference = E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E59DDC8829D8958F00DF4EFB /* EisbachPegelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelTests" */;
+			buildPhases = (
+				E59DDC8529D8958F00DF4EFB /* Sources */,
+				E59DDC8629D8958F00DF4EFB /* Frameworks */,
+				E59DDC8729D8958F00DF4EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59DDC8B29D8958F00DF4EFB /* PBXTargetDependency */,
+			);
+			name = EisbachPegelTests;
+			productName = EisbachPegelTests;
+			productReference = E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E59DDC9229D8958F00DF4EFB /* EisbachPegelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelUITests" */;
+			buildPhases = (
+				E59DDC8F29D8958F00DF4EFB /* Sources */,
+				E59DDC9029D8958F00DF4EFB /* Frameworks */,
+				E59DDC9129D8958F00DF4EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59DDC9529D8958F00DF4EFB /* PBXTargetDependency */,
+			);
+			name = EisbachPegelUITests;
+			productName = EisbachPegelUITests;
+			productReference = E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E59DDC7129D8958D00DF4EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E59DDC7829D8958D00DF4EFB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E59DDC8829D8958F00DF4EFB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E59DDC7829D8958D00DF4EFB;
+					};
+					E59DDC9229D8958F00DF4EFB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E59DDC7829D8958D00DF4EFB;
+					};
+				};
+			};
+			buildConfigurationList = E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "EisbachPegel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E59DDC7029D8958D00DF4EFB;
+			productRefGroup = E59DDC7A29D8958D00DF4EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E59DDC7829D8958D00DF4EFB /* EisbachPegel */,
+				E59DDC8829D8958F00DF4EFB /* EisbachPegelTests */,
+				E59DDC9229D8958F00DF4EFB /* EisbachPegelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E59DDC7729D8958D00DF4EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59DDC8429D8958F00DF4EFB /* Preview Assets.xcassets in Resources */,
+				E59DDC8129D8958F00DF4EFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC8729D8958F00DF4EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC9129D8958F00DF4EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E59DDC7529D8958D00DF4EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59DDC7F29D8958D00DF4EFB /* ContentView.swift in Sources */,
+				E59DDC7D29D8958D00DF4EFB /* EisbachPegelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC8529D8958F00DF4EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59DDC8E29D8958F00DF4EFB /* EisbachPegelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59DDC8F29D8958F00DF4EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59DDC9A29D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift in Sources */,
+				E59DDC9829D8958F00DF4EFB /* EisbachPegelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E59DDC8B29D8958F00DF4EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59DDC7829D8958D00DF4EFB /* EisbachPegel */;
+			targetProxy = E59DDC8A29D8958F00DF4EFB /* PBXContainerItemProxy */;
+		};
+		E59DDC9529D8958F00DF4EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E59DDC7829D8958D00DF4EFB /* EisbachPegel */;
+			targetProxy = E59DDC9429D8958F00DF4EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E59DDC9B29D8958F00DF4EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E59DDC9C29D8958F00DF4EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E59DDC9E29D8958F00DF4EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EisbachPegel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E59DDC9F29D8958F00DF4EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EisbachPegel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E59DDCA129D8958F00DF4EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisbachPegel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EisbachPegel";
+			};
+			name = Debug;
+		};
+		E59DDCA229D8958F00DF4EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisbachPegel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EisbachPegel";
+			};
+			name = Release;
+		};
+		E59DDCA429D8958F00DF4EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EisbachPegel;
+			};
+			name = Debug;
+		};
+		E59DDCA529D8958F00DF4EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EisbachPegel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "EisbachPegel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59DDC9B29D8958F00DF4EFB /* Debug */,
+				E59DDC9C29D8958F00DF4EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59DDC9E29D8958F00DF4EFB /* Debug */,
+				E59DDC9F29D8958F00DF4EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59DDCA129D8958F00DF4EFB /* Debug */,
+				E59DDCA229D8958F00DF4EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59DDCA429D8958F00DF4EFB /* Debug */,
+				E59DDCA529D8958F00DF4EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E59DDC7129D8958D00DF4EFB /* Project object */;
+}
