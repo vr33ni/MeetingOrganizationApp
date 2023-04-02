@@ -1,13 +1,13 @@
 //
-//  EisbachPegelUITests.swift
-//  EisbachPegelUITests
+//  MeetingOrganizerUITests.swift
+//  MeetingOrganizerUITests
 //
 //  Created by Verena Lechner on 01/04/2023.
 //
 
 import XCTest
 
-final class EisbachPegelUITests: XCTestCase {
+final class MeetingOrganizerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

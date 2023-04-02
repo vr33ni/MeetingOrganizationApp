@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E59DDC7D29D8958D00DF4EFB /* EisbachPegelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */; };
-		E59DDC7F29D8958D00DF4EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7E29D8958D00DF4EFB /* ContentView.swift */; };
+		E59DDC7D29D8958D00DF4EFB /* MeetingOrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7C29D8958D00DF4EFB /* MeetingOrganizerApp.swift */; };
+		E59DDC7F29D8958D00DF4EFB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC7E29D8958D00DF4EFB /* MeetingView.swift */; };
 		E59DDC8129D8958F00DF4EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59DDC8029D8958F00DF4EFB /* Assets.xcassets */; };
 		E59DDC8429D8958F00DF4EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59DDC8329D8958F00DF4EFB /* Preview Assets.xcassets */; };
-		E59DDC8E29D8958F00DF4EFB /* EisbachPegelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */; };
-		E59DDC9829D8958F00DF4EFB /* EisbachPegelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */; };
-		E59DDC9A29D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */; };
+		E59DDC8E29D8958F00DF4EFB /* MeetingOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC8D29D8958F00DF4EFB /* MeetingOrganizerTests.swift */; };
+		E59DDC9829D8958F00DF4EFB /* MeetingOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9729D8958F00DF4EFB /* MeetingOrganizerUITests.swift */; };
+		E59DDC9A29D8958F00DF4EFB /* MeetingOrganizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDC9929D8958F00DF4EFB /* MeetingOrganizerUITestsLaunchTests.swift */; };
+		E59DDCA829D8A11100DF4EFB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDCA729D8A11100DF4EFB /* Theme.swift */; };
+		E59DDCAA29D8A1DF00DF4EFB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59DDCA929D8A1DF00DF4EFB /* DailyScrum.swift */; };
+		E5FE12E029D8A4E6000025AC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE12DF29D8A4E6000025AC /* CardView.swift */; };
+		E5FE12E229D8A616000025AC /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE12E129D8A616000025AC /* TrailingIconLabelStyle.swift */; };
+		E5FE12E429D8A9F6000025AC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE12E329D8A9F6000025AC /* ScrumsView.swift */; };
+		E5FE12E629D8ACC2000025AC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE12E529D8ACC2000025AC /* DetailView.swift */; };
+		E5FE12E829D8B566000025AC /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE12E729D8B566000025AC /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +41,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisbachPegel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelApp.swift; sourceTree = "<group>"; };
-		E59DDC7E29D8958D00DF4EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E59DDC7929D8958D00DF4EFB /* MeetingOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC7C29D8958D00DF4EFB /* MeetingOrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingOrganizerApp.swift; sourceTree = "<group>"; };
+		E59DDC7E29D8958D00DF4EFB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		E59DDC8029D8958F00DF4EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59DDC8329D8958F00DF4EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisbachPegelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelTests.swift; sourceTree = "<group>"; };
-		E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisbachPegelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelUITests.swift; sourceTree = "<group>"; };
-		E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisbachPegelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E59DDC8929D8958F00DF4EFB /* MeetingOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC8D29D8958F00DF4EFB /* MeetingOrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingOrganizerTests.swift; sourceTree = "<group>"; };
+		E59DDC9329D8958F00DF4EFB /* MeetingOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59DDC9729D8958F00DF4EFB /* MeetingOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingOrganizerUITests.swift; sourceTree = "<group>"; };
+		E59DDC9929D8958F00DF4EFB /* MeetingOrganizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingOrganizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E59DDCA729D8A11100DF4EFB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E59DDCA929D8A1DF00DF4EFB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		E5FE12DF29D8A4E6000025AC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E5FE12E129D8A616000025AC /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		E5FE12E329D8A9F6000025AC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		E5FE12E529D8ACC2000025AC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E5FE12E729D8B566000025AC /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +88,9 @@
 		E59DDC7029D8958D00DF4EFB = {
 			isa = PBXGroup;
 			children = (
-				E59DDC7B29D8958D00DF4EFB /* EisbachPegel */,
-				E59DDC8C29D8958F00DF4EFB /* EisbachPegelTests */,
-				E59DDC9629D8958F00DF4EFB /* EisbachPegelUITests */,
+				E59DDC7B29D8958D00DF4EFB /* MeetingOrganizer */,
+				E59DDC8C29D8958F00DF4EFB /* MeetingOrganizerTests */,
+				E59DDC9629D8958F00DF4EFB /* MeetingOrganizerUITests */,
 				E59DDC7A29D8958D00DF4EFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +98,28 @@
 		E59DDC7A29D8958D00DF4EFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */,
-				E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */,
-				E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */,
+				E59DDC7929D8958D00DF4EFB /* MeetingOrganizer.app */,
+				E59DDC8929D8958F00DF4EFB /* MeetingOrganizerTests.xctest */,
+				E59DDC9329D8958F00DF4EFB /* MeetingOrganizerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E59DDC7B29D8958D00DF4EFB /* EisbachPegel */ = {
+		E59DDC7B29D8958D00DF4EFB /* MeetingOrganizer */ = {
 			isa = PBXGroup;
 			children = (
-				E59DDC7C29D8958D00DF4EFB /* EisbachPegelApp.swift */,
-				E59DDC7E29D8958D00DF4EFB /* ContentView.swift */,
+				E59DDCA629D8A0EA00DF4EFB /* Models */,
+				E59DDC7C29D8958D00DF4EFB /* MeetingOrganizerApp.swift */,
+				E59DDC7E29D8958D00DF4EFB /* MeetingView.swift */,
+				E5FE12DF29D8A4E6000025AC /* CardView.swift */,
+				E5FE12E329D8A9F6000025AC /* ScrumsView.swift */,
+				E5FE12E129D8A616000025AC /* TrailingIconLabelStyle.swift */,
+				E5FE12E529D8ACC2000025AC /* DetailView.swift */,
 				E59DDC8029D8958F00DF4EFB /* Assets.xcassets */,
 				E59DDC8229D8958F00DF4EFB /* Preview Content */,
+				E5FE12E729D8B566000025AC /* DetailEditView.swift */,
 			);
-			path = EisbachPegel;
+			path = MeetingOrganizer;
 			sourceTree = "<group>";
 		};
 		E59DDC8229D8958F00DF4EFB /* Preview Content */ = {
@@ -110,29 +130,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E59DDC8C29D8958F00DF4EFB /* EisbachPegelTests */ = {
+		E59DDC8C29D8958F00DF4EFB /* MeetingOrganizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				E59DDC8D29D8958F00DF4EFB /* EisbachPegelTests.swift */,
+				E59DDC8D29D8958F00DF4EFB /* MeetingOrganizerTests.swift */,
 			);
-			path = EisbachPegelTests;
+			path = MeetingOrganizerTests;
 			sourceTree = "<group>";
 		};
-		E59DDC9629D8958F00DF4EFB /* EisbachPegelUITests */ = {
+		E59DDC9629D8958F00DF4EFB /* MeetingOrganizerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E59DDC9729D8958F00DF4EFB /* EisbachPegelUITests.swift */,
-				E59DDC9929D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift */,
+				E59DDC9729D8958F00DF4EFB /* MeetingOrganizerUITests.swift */,
+				E59DDC9929D8958F00DF4EFB /* MeetingOrganizerUITestsLaunchTests.swift */,
 			);
-			path = EisbachPegelUITests;
+			path = MeetingOrganizerUITests;
+			sourceTree = "<group>";
+		};
+		E59DDCA629D8A0EA00DF4EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E59DDCA729D8A11100DF4EFB /* Theme.swift */,
+				E59DDCA929D8A1DF00DF4EFB /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E59DDC7829D8958D00DF4EFB /* EisbachPegel */ = {
+		E59DDC7829D8958D00DF4EFB /* MeetingOrganizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegel" */;
+			buildConfigurationList = E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizer" */;
 			buildPhases = (
 				E59DDC7529D8958D00DF4EFB /* Sources */,
 				E59DDC7629D8958D00DF4EFB /* Frameworks */,
@@ -142,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = EisbachPegel;
+			name = MeetingOrganizer;
 			productName = EisbachPegel;
-			productReference = E59DDC7929D8958D00DF4EFB /* EisbachPegel.app */;
+			productReference = E59DDC7929D8958D00DF4EFB /* MeetingOrganizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E59DDC8829D8958F00DF4EFB /* EisbachPegelTests */ = {
+		E59DDC8829D8958F00DF4EFB /* MeetingOrganizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelTests" */;
+			buildConfigurationList = E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizerTests" */;
 			buildPhases = (
 				E59DDC8529D8958F00DF4EFB /* Sources */,
 				E59DDC8629D8958F00DF4EFB /* Frameworks */,
@@ -160,14 +189,14 @@
 			dependencies = (
 				E59DDC8B29D8958F00DF4EFB /* PBXTargetDependency */,
 			);
-			name = EisbachPegelTests;
+			name = MeetingOrganizerTests;
 			productName = EisbachPegelTests;
-			productReference = E59DDC8929D8958F00DF4EFB /* EisbachPegelTests.xctest */;
+			productReference = E59DDC8929D8958F00DF4EFB /* MeetingOrganizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E59DDC9229D8958F00DF4EFB /* EisbachPegelUITests */ = {
+		E59DDC9229D8958F00DF4EFB /* MeetingOrganizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelUITests" */;
+			buildConfigurationList = E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizerUITests" */;
 			buildPhases = (
 				E59DDC8F29D8958F00DF4EFB /* Sources */,
 				E59DDC9029D8958F00DF4EFB /* Frameworks */,
@@ -178,9 +207,9 @@
 			dependencies = (
 				E59DDC9529D8958F00DF4EFB /* PBXTargetDependency */,
 			);
-			name = EisbachPegelUITests;
+			name = MeetingOrganizerUITests;
 			productName = EisbachPegelUITests;
-			productReference = E59DDC9329D8958F00DF4EFB /* EisbachPegelUITests.xctest */;
+			productReference = E59DDC9329D8958F00DF4EFB /* MeetingOrganizerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "EisbachPegel" */;
+			buildConfigurationList = E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "MeetingOrganizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E59DDC7829D8958D00DF4EFB /* EisbachPegel */,
-				E59DDC8829D8958F00DF4EFB /* EisbachPegelTests */,
-				E59DDC9229D8958F00DF4EFB /* EisbachPegelUITests */,
+				E59DDC7829D8958D00DF4EFB /* MeetingOrganizer */,
+				E59DDC8829D8958F00DF4EFB /* MeetingOrganizerTests */,
+				E59DDC9229D8958F00DF4EFB /* MeetingOrganizerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59DDC7F29D8958D00DF4EFB /* ContentView.swift in Sources */,
-				E59DDC7D29D8958D00DF4EFB /* EisbachPegelApp.swift in Sources */,
+				E59DDCAA29D8A1DF00DF4EFB /* DailyScrum.swift in Sources */,
+				E5FE12E629D8ACC2000025AC /* DetailView.swift in Sources */,
+				E5FE12E829D8B566000025AC /* DetailEditView.swift in Sources */,
+				E5FE12E229D8A616000025AC /* TrailingIconLabelStyle.swift in Sources */,
+				E59DDCA829D8A11100DF4EFB /* Theme.swift in Sources */,
+				E5FE12E429D8A9F6000025AC /* ScrumsView.swift in Sources */,
+				E59DDC7F29D8958D00DF4EFB /* MeetingView.swift in Sources */,
+				E59DDC7D29D8958D00DF4EFB /* MeetingOrganizerApp.swift in Sources */,
+				E5FE12E029D8A4E6000025AC /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59DDC8E29D8958F00DF4EFB /* EisbachPegelTests.swift in Sources */,
+				E59DDC8E29D8958F00DF4EFB /* MeetingOrganizerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59DDC9A29D8958F00DF4EFB /* EisbachPegelUITestsLaunchTests.swift in Sources */,
-				E59DDC9829D8958F00DF4EFB /* EisbachPegelUITests.swift in Sources */,
+				E59DDC9A29D8958F00DF4EFB /* MeetingOrganizerUITestsLaunchTests.swift in Sources */,
+				E59DDC9829D8958F00DF4EFB /* MeetingOrganizerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +320,12 @@
 /* Begin PBXTargetDependency section */
 		E59DDC8B29D8958F00DF4EFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E59DDC7829D8958D00DF4EFB /* EisbachPegel */;
+			target = E59DDC7829D8958D00DF4EFB /* MeetingOrganizer */;
 			targetProxy = E59DDC8A29D8958F00DF4EFB /* PBXContainerItemProxy */;
 		};
 		E59DDC9529D8958F00DF4EFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E59DDC7829D8958D00DF4EFB /* EisbachPegel */;
+			target = E59DDC7829D8958D00DF4EFB /* MeetingOrganizer */;
 			targetProxy = E59DDC9429D8958F00DF4EFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +452,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EisbachPegel/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingOrganizer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,7 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EisbachPegel/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingOrganizer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,12 +511,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisbachPegel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EisbachPegel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingOrganizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetingOrganizer";
 			};
 			name = Debug;
 		};
@@ -494,12 +530,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisbachPegel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EisbachPegel";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingOrganizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeetingOrganizer";
 			};
 			name = Release;
 		};
@@ -511,12 +547,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EisbachPegel;
+				TEST_TARGET_NAME = MeetingOrganizer;
 			};
 			name = Debug;
 		};
@@ -528,19 +564,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.EisbachPegelUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vr33ni.MeetingOrganizerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = EisbachPegel;
+				TEST_TARGET_NAME = MeetingOrganizer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "EisbachPegel" */ = {
+		E59DDC7429D8958D00DF4EFB /* Build configuration list for PBXProject "MeetingOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E59DDC9B29D8958F00DF4EFB /* Debug */,
@@ -549,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegel" */ = {
+		E59DDC9D29D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E59DDC9E29D8958F00DF4EFB /* Debug */,
@@ -558,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelTests" */ = {
+		E59DDCA029D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E59DDCA129D8958F00DF4EFB /* Debug */,
@@ -567,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "EisbachPegelUITests" */ = {
+		E59DDCA329D8958F00DF4EFB /* Build configuration list for PBXNativeTarget "MeetingOrganizerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E59DDCA429D8958F00DF4EFB /* Debug */,

@@ -1,13 +1,13 @@
 //
-//  EisbachPegelUITestsLaunchTests.swift
-//  EisbachPegelUITests
+//  MeetingOrganizerUITestsLaunchTests.swift
+//  MeetingOrganizerUITests
 //
 //  Created by Verena Lechner on 01/04/2023.
 //
 
 import XCTest
 
-final class EisbachPegelUITestsLaunchTests: XCTestCase {
+final class MeetingOrganizerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
