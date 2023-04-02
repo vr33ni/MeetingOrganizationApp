@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-
-
 struct ScrumsView: View {
 
-    let scrums: [DailyScrum]
+    @Binding var scrums: [DailyScrum]
 
     
 
@@ -19,9 +17,9 @@ struct ScrumsView: View {
 
         List {
 
-            ForEach(scrums) { scrum in
+            ForEach($scrums) { $scrum in
 
-                NavigationLink(destination: DetailView(scrum: scrum)) {
+                NavigationLink(destination: DetailView(scrum: $scrum)) {
 
                     CardView(scrum: scrum)
 
@@ -32,7 +30,9 @@ struct ScrumsView: View {
             }
 
         }
+
         .navigationTitle("Daily Scrums")
+
         .toolbar {
 
             Button(action: {}) {
@@ -40,8 +40,11 @@ struct ScrumsView: View {
                 Image(systemName: "plus")
 
             }
+
             .accessibilityLabel("New Scrum")
+
         }
+
     }
 
 }
@@ -53,7 +56,7 @@ struct ScrumsView_Previews: PreviewProvider {
 
         NavigationView {
 
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: .constant(DailyScrum.sampleData))
 
         }
 
