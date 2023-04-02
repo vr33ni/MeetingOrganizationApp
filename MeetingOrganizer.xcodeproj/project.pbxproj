@@ -63,6 +63,7 @@
 		E5FE12EA29D963C7000025AC /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		E5FE12EC29D96495000025AC /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		E5FE12EE29D96F86000025AC /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../../../../Downloads/PassingDataWithBindings/Complete/Scrumdinger/DetailView.swift; sourceTree = "<group>"; };
+		E5FE12F029D97232000025AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		E59DDC7029D8958D00DF4EFB = {
 			isa = PBXGroup;
 			children = (
+				E5FE12F029D97232000025AC /* README.md */,
 				E59DDC7B29D8958D00DF4EFB /* MeetingOrganizer */,
 				E59DDC8C29D8958F00DF4EFB /* MeetingOrganizerTests */,
 				E59DDC9629D8958F00DF4EFB /* MeetingOrganizerUITests */,
